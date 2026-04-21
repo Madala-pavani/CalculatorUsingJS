@@ -1,0 +1,36 @@
+
+.operations {
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px rgb(105, 105, 105);
+    height: 400px;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-image: url(https://i.pinimg.com/1200x/25/d0/16/25d016f677b488da4202fa556f619bcf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Buttons with translucent overlay */
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* lighter overlay */
+    color: black;
+    font-weight: bold;
+}
+
+/* Input fields with translucent overlay */
+#value1, #value2 {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* lighter overlay */
+    color: black;
+}
+
+#display {
+    font-weight: bold;
+}
